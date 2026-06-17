@@ -1,10 +1,43 @@
 {
   "users": [],
-  "agents": [],
+  "agents": [
+    {
+      "_id": "a3",
+      "name": "RAG Researcher",
+      "description": "Performs semantic document parsing and analysis.",
+      "goals": "Extract details from loaded reports.",
+      "personality": "Research",
+      "category": "Research",
+      "price": 49,
+      "billingType": "one-time",
+      "creatorId": "mock-user-123",
+      "isPublished": true,
+      "rating": 4.9,
+      "reviewsCount": 15,
+      "tools": [
+        "PDF Parser",
+        "Vector DB Search"
+      ],
+      "memoryType": "long-term",
+      "createdAt": "2026-06-17T07:48:34.625Z"
+    }
+  ],
   "workflows": [],
   "conversations": [],
   "messages": [],
-  "knowledgeBases": [],
+  "knowledgeBases": [
+    {
+      "_id": "k2",
+      "name": "Product FAQ Scrapes",
+      "description": "FAQ scrapes from marketing site.",
+      "creatorId": "mock-user-123",
+      "documentsCount": 1,
+      "fileNames": [
+        "faq.csv"
+      ],
+      "createdAt": "2026-06-17T07:48:38.792Z"
+    }
+  ],
   "payments": [],
   "marketplaceListings": [],
   "notifications": [],
